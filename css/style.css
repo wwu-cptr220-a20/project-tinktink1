@@ -1,13 +1,13 @@
 *{
 box-sizing: border-box;
 font-family:'ITC American Typewriter Std Medium';
-background-color: cornflowerblue;
+background-color: #0F2C85;
 
 }
 body>header{
     font-size: 2rem;
     text-align: center;
-    background-color:cornflowerblue;
+
     color:white;
 }
 body>header>p{
@@ -61,6 +61,10 @@ body>header>p{
       left:0;
       bottom: 0;
       width:100%;
+      color:white;
+  }
+  footer>div>a{
+      text-decoration: none;
       color:white;
   }
   @media (min-width:992px)
